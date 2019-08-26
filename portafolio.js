@@ -1,5 +1,5 @@
 var trabajos = [{
-}, {
+
 figure: "media/alaia.jpg",
 alt: "Descripción de la imagen",
 title: "ALAIA",
