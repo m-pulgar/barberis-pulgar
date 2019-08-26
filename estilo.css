@@ -270,10 +270,6 @@ AHORA VAMOS POR PORTAFOLIO
      background: #ECECEC;
 }
 
- .item figure{
-     overflow:hidden;
-}
-
  .item figure img{
      width:100%;
      height:auto;
