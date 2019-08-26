@@ -68,6 +68,7 @@ title: "CONTRASENTIDO",
 about: "Ilustraciones de juego que pretendía, mediante la subjetividad, incrementar la capacidad de análisis y crítica de las personas. Busca generar temas de debate, nuevas ideas y fortalecer el pensamiento crítico.",
 por: "por: La Monse",
 url: "https://www.instagram.com/perras_lok.s/?hl=es-la"
+    
 }];
 // LUEGO CREAMOS PARTES DEL SITIO CON CADA DATO CONTENIDO EN LA VARIABLE
 $.each(trabajos, function(i, val) {
