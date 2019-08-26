@@ -1,0 +1,69 @@
+<!DOCTYPE HTML>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Perras Lok-s</title>
+    <link rel="icon" type="image/png" href="media/favicon.png" />
+    <!-- Metadatos genéricos -->
+    <meta name="description" content="Portafolio de dos diseñadoras 24/7">
+    <meta name="image" content="media/imagen.jpg">
+    <!-- Metadatos Twitter -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Portafolio de un par de diseñadoras Perras Lok-s">
+    <meta name="twitter:description" content="Un portafolio de dos diseñadoras 24/7">
+    <meta name="twitter:image:src" content="media/imagen.jpg">
+    <!-- Metadatos Open Graph (Facebook, Pinterest & LinkedIn) -->
+    <meta name="og:title" content="Portafolio de un par de diseñadoras Perras Lok-s">
+    <meta name="og:description" content="Un portafolio de dos diseñadoras 24/7">
+    <meta name="og:image" content="media/imagen.jpg">
+    <meta name="og:type" content="website">
+    <!-- Ahora vinculamos el estilo -->
+    <link rel="stylesheet" href="estilo.css" type="text/css">
+</head>
+<body>
+
+    <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+        <source src="media/video.mp4" type="video/mp4">
+        <source src="media/video.webm" type="video/webm">
+
+    </video>
+    <main>
+              <h3>BRILLAMOS SIN HIGHLIGHTER</h3>
+              <section id="equipo">
+                <div class="integrante">
+                <h4>LA TOÑA</h4>
+                <address><a href="mailto:abarberis@uc.cl">abarberis@uc.cl</a></address>
+                <blockquote>Holaaaa niños y niñas. Todos me llaman Toña, me encanta comer (se podría decir que soy una gorda insaciable) y mi época favorita son los noventa, feliz me transformarìa en Britney Spears. Siempre ando con los medios tacos, porque la vida me castigo siendo baja, soy rubia falsa  -lo admito- y hago de todo, aunque odio el computador jeje.</blockquote>
+                <blockquote>El animal print nunca está de más. <cite>AB</cite></blockquote>
+            </div>
+            <div class="integrante">
+                <h4>LA MONSE</h4>
+                <address><a href="mailto:mypulgar@uc.cl">mypulgar@uc.cl</a></address>
+                <blockquote> Buena! Me dicen Monse, me conocen como la que siempre pasa de largo porque nunca duermo, por lo que soy un poco adicta al café, saco hartas fotos, amo a Lady Gaga es una Queen. Todos dicen que soy gráfica pero siempre lo niego porque no soy gráfica (ya bueno, si soy un poco gráfica pero quedense piola). </blockquote>
+                <blockquote>No soy gráfica. <cite>MP</cite></blockquote>
+            </div>
+        </section>
+        <h3 id="catalogo">CATÁLOGO</h3>
+        <section id="portafolio">
+            <!--acá se colocan y organizan las cosas con programación-->
+          </section>
+    </main>
+    <footer>
+        <p>Procesos de Producción · sección web · segundo semestre · 2019</p>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/masonry/4.2.2/masonry.pkgd.min.js"></script>
+    <script>
+        window.onload = function() {
+            var container = document.querySelector('#portafolio');
+            var msnry = new Masonry(portafolio, {
+                itemSelector: '.item'
+            });
+        };
+    </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="portafolio.js"></script>
+</body>
+
+</html>
