@@ -25,6 +25,7 @@ figure: "media/indomable.jpg",
 alt: "Descripción de la imagen",
 title: "INDOMABLE",
 about: "Pocillo antiderrame que, mediante tres partes y un eje de rotación, genera un sistema de 360°. Con esto, la comida siempre se mantiene paralela al piso, permitiendo al usuario comer tranquilamente en su cama.",
+por: "por: La Toña y La Monse",
 url: "https://www.instagram.com/p/B1lttUWHcIm/"
 }, {
 figure: "media/slid.jpg",
