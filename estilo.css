@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Work+Sans&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
 
 /*
@@ -15,7 +15,7 @@ se cierran con asterisco slash.
 }
 
 body{
-    font-family:'Poppins', sans-serif;
+    font-family:'Work Sans', sans-serif;
     color:#ECECEC;
     background-color:#ECECEC; /*el primer par es R, segundo es G y tercero es B*/
 }
